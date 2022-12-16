@@ -19,13 +19,13 @@ public class Main {
         ////
         ////
         System.out.println();
-        Human human1 = new Human("Максим", "Москва", 2001, "программист");
+        Human human1 = new Human("Максим", "Москва", 2001, "");
         System.out.println(human1);
-        Human human2 = new Human("Аня", "Тырнополь", 1992, "юрист 1-го разряда");
+        Human human2 = new Human("Аня", "Тырнополь", -2, "юрист 1-го разряда");
         System.out.println(human2);
         Human human3 = new Human("Катя", "Москва", 1989, "менеджер по продажам");
         System.out.println(human3);
-        Human human4 = new Human("Артем", "Волгоград", 1955, "директор завода");
+        Human human4 = new Human("", "Волгоград", 1955, "директор завода");
         System.out.println(human4);
     }
 }
