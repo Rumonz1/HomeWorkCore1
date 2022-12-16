@@ -6,6 +6,7 @@ public class Автомобиль {
     int year;
     String country;
 
+
     Автомобиль(String brand,String model,int year,String country,String color,double engineVolume ) {
         this.brand=brand;
         this.color = color;
@@ -13,6 +14,24 @@ public class Автомобиль {
         this.model = model;
         this.engineVolume = engineVolume;
         this.year =year;
+        if (brand  == null || brand == "") {
+            this.brand = "default";
+        }
+        if (model == null || model == "") {
+            this.model = "default";
+        }
+        if (country == null || country == "") {
+            this.country = "default";
+        }
+        if (engineVolume <= 0) {
+            this.engineVolume = 1.5;
+        }
+        if (color == null || color == "") {
+            this. color = "белый";
+        }
+        if (year <= 0) {
+            this.year = 2000;
+        }
 
     }
 
