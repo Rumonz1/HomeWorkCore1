@@ -15,5 +15,17 @@ public class Main {
         System.out.println(auto4);
         Автомобиль auto5 = new Автомобиль("Hyundai","Avante",0,"Южная Корея","оранжевый",1.6);
         System.out.println(auto5);
+        System.out.println();
+        ////
+        ////
+        System.out.println();
+        Human human1 = new Human("Максим", "Москва", 2001, "программист");
+        System.out.println(human1);
+        Human human2 = new Human("Аня", "Тырнополь", 1992, "юрист 1-го разряда");
+        System.out.println(human2);
+        Human human3 = new Human("Катя", "Москва", 1989, "менеджер по продажам");
+        System.out.println(human3);
+        Human human4 = new Human("Артем", "Волгоград", 1955, "директор завода");
+        System.out.println(human4);
     }
 }
